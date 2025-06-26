@@ -40,12 +40,12 @@ Make sure you're using a compatible version of CUDA if running on GPU.
 ```bash
 python app.py
 ```
-3. Open your browser and go to:
+2. Open your browser and go to:
 ```bash
 http://localhost:5000
 ```
-5. Select desired detectors (e.g., Human Detector, Cats Detector, Segmentation).
-6. View real-time results from your webcam stream!
+3. Select desired detectors (e.g., Human Detector, Cats Detector, Segmentation).
+4. View real-time results from your webcam stream!
 
 **📸 Webcam Stream Preview**
 The live video feed shows bounding boxes and labels around detected objects:
