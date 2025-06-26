@@ -29,7 +29,8 @@ Semantic segmentation overlay using Mask R-CNN
 Ensure you have the following dependencies installed:
 
 ```bash 
-pip install torch torchvision opencv-python deepface flask ultralytics pillow transformers ```
+pip install torch torchvision opencv-python deepface flask ultralytics pillow transformers
+```
 
 Make sure you're using a compatible version of CUDA if running on GPU.
 
