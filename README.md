@@ -1,6 +1,7 @@
 <div align="center">
   <h3>Written by @sayori_qua</h3>
 </div>
+
 # 🖼️ Real-Time Object Detection with Face & Animal Recognition
 This project is a real-time object detection and classification system that uses webcams to detect people, cats, dogs, and birds while also recognizing facial attributes like gender and age , and applying semantic segmentation to identify various objects in the scene.
 
