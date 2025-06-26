@@ -5,7 +5,7 @@
 # 🖼️ Real-Time Object Detection with Face & Animal Recognition
 This project is a real-time object detection and classification system that uses webcams to detect people, cats, dogs, and birds while also recognizing facial attributes like gender and age , and applying semantic segmentation to identify various objects in the scene.
 
-It combines powerful models from:
+# It combines powerful models from:
 - YOLOv8 for object detection
 - DeepFace for face analysis
 - Hugging Face Transformers for breed/species classification
@@ -26,7 +26,7 @@ Semantic segmentation overlay using Mask R-CNN
 
 # 📦 Requirements
 Ensure you have the following dependencies installed:
-'''bash pip install torch torchvision opencv-python deepface flask ultralytics pillow transformers '''
+```bash pip install torch torchvision opencv-python deepface flask ultralytics pillow transformers ```
 Make sure you're using a compatible version of CUDA if running on GPU.
 
 # 🛠️ Project Structure
@@ -41,9 +41,9 @@ cv_project/
 
 # 🚀 How to Run
 1. Start the Flask server:
-'''bash python app.py'''
+```bash python app.py```
 2. Open your browser and go to:
-'''bash http://localhost:5000'''
+```bash http://localhost:5000```
 3. Select desired detectors (e.g., Human Detector, Cats Detector, Segmentation).
 4. View real-time results from your webcam stream!
 
