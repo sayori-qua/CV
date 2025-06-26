@@ -14,15 +14,17 @@ This project is a real-time object detection and classification system that uses
 **🧠 Features**
 
 🔍 Detects and tracks multiple objects: humans, dogs, cats, and birds.
+
 👥 For humans:
 - Recognizes gender
 - Predicts age
 - Estimates height
-- 
+  
 🐶🐱 Classifies animal breeds:
 - Dogs (via ViT)
 - Cats (via custom model)
 - Birds (via species classifier)
+  
 Semantic segmentation overlay using Mask R-CNN
 🎮 Toggle between detectors via a Flask-based web interface
 
