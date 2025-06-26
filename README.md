@@ -17,6 +17,7 @@ This project is a real-time object detection and classification system that uses
 - Recognizes gender
 - Predicts age
 - Estimates height
+- 
 🐶🐱 Classifies animal breeds:
 - Dogs (via ViT)
 - Cats (via custom model)
@@ -26,18 +27,10 @@ Semantic segmentation overlay using Mask R-CNN
 
 # 📦 Requirements
 Ensure you have the following dependencies installed:
-```bash pip install torch torchvision opencv-python deepface flask ultralytics pillow transformers ```
-Make sure you're using a compatible version of CUDA if running on GPU.
 
-# 🛠️ Project Structure
-cv_project/
-│
-├── detection_face_recognition.py   # Main detection logic including face recognition
-├── image_segmentation.py           # Image segmentation using Mask R-CNN
-├── app.py                          # Flask web application
-├── templates/
-│   └── index.html                  # Web UI for selecting detectors
-└── README.md                       # This file
+```bash pip install torch torchvision opencv-python deepface flask ultralytics pillow transformers ```
+
+Make sure you're using a compatible version of CUDA if running on GPU.
 
 # 🚀 How to Run
 1. Start the Flask server:
