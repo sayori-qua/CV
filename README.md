@@ -12,6 +12,7 @@ This project is a real-time object detection and classification system that uses
 - Mask R-CNN for image segmentation
 
 **🧠 Features**
+
 🔍 Detects and tracks multiple objects: humans, dogs, cats, and birds.
 👥 For humans:
 - Recognizes gender
