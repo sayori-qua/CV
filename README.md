@@ -29,6 +29,7 @@ Semantic segmentation overlay using Mask R-CNN
 🎮 Toggle between detectors via a Flask-based web interface
 
 **📦 Requirements**
+
 Ensure you have the following dependencies installed:
 
 ```bash 
@@ -38,6 +39,7 @@ pip install torch torchvision opencv-python deepface flask ultralytics pillow tr
 Make sure you're using a compatible version of CUDA if running on GPU.
 
 **🚀 How to Run**
+
 1. Start the Flask server:
 ```bash
 python app.py
@@ -50,6 +52,7 @@ http://localhost:5000
 4. View real-time results from your webcam stream!
 
 **📸 Webcam Stream Preview**
+
 The live video feed shows bounding boxes and labels around detected objects:
 
 - Humans are labeled with ID, gender, age, and estimated height
@@ -57,11 +60,13 @@ The live video feed shows bounding boxes and labels around detected objects:
 - Segmented objects are color-coded with class names displayed
   
 **📝 Notes**
+
 - The first time you run it, some models will be downloaded automatically — this may take some time.
 - Make sure your camera is accessible at /dev/video0 (Linux) or as default device (Windows/Mac).
 - You can modify allowed classes and models inside detection_face_recognition.py.
   
 **💡 Possible Improvements**
+
 - Add support for more animal species
 - Implement caching for faster inference
 - Save logs or video recordings
